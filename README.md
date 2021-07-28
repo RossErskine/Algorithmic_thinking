@@ -6,5 +6,5 @@ Challenges done so far:
 1) Food lines
 2) Snow flake 
   a) long winded version
-  b)working on linked version
-  c)todo.. hash table version
+  b) linked list version
+  

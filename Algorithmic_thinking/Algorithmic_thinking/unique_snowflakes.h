@@ -90,9 +90,10 @@ bool identical_right(vector<int> snow1, vector<int> snow2, int start)
 	}
 	return true;
 }
-
+int COUNT = 0;
 bool are_identical(vector<int> snow1, vector<int> snow2)
 {
+	COUNT++;
 	for (int i = 0; i < snow1.size(); i++) {
 		if (identical_right(snow1, snow2, i)) {
 			return true;
@@ -110,11 +111,13 @@ void identify_identical(vector<vector<int>> values)
 		for (int j = i + 1; j != values.size()-1; j++) {
 			if (are_identical(values[i],values[j])) {
 				cout << "Twin snowflakes found.\n"; 
+				cout << COUNT;
 				return;
 			}
 		}
 	}
 	cout << "No two snowflakes are alike.\n";
+	cout << COUNT;
 }
 
 void runUniqueSnowflakes()

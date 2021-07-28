@@ -1,3 +1,3 @@
 ﻿  Algorithmic_thinking.cpp
-D:\DDocuments\C++\Code challenges\Algorithmic_thinking\Algorithmic_thinking\unique_snowflakes.h(96,20): warning C4018: '<': signed/unsigned mismatch
-  Algorithmic_thinking.vcxproj -> D:\DDocuments\C++\Code challenges\Algorithmic_thinking\Debug\Algorithmic_thinking.exe
+C:\Users\rosco\Documents\MyCode\C++\Code challenges\Algorithmic_thinking\Algorithmic_thinking\unique_snowflakes.h(97,20): warning C4018: '<': signed/unsigned mismatch
+  Algorithmic_thinking.vcxproj -> C:\Users\rosco\Documents\MyCode\C++\Code challenges\Algorithmic_thinking\Debug\Algorithmic_thinking.exe
